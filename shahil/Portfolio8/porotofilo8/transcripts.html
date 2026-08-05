@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Column Gallery</title>
+    <style>
+        .image-column {
+            display: flex;
+            flex-direction: column; /* Stacks images vertically */
+            align-items: center; /* Centers images horizontally on the page */
+            gap: 20px; /* Vertical spacing between images */
+            padding: 20px;
+        }
+
+        .image-column img {
+            width: 100%;
+            max-width: 600px; /* Prevents images from stretching too wide on desktop */
+            height: auto; /* Maintains original aspect ratio without distortion */
+            border-radius: 8px; /* Optional: adds subtle rounded corners */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-column">
+        <img src="images/IMG_6368.JPG.jpeg" alt="Image 1">
+        <img src="images/IMG_6369.JPG.jpeg" alt="Image 2">
+        <img src="images/IMG_6370.JPG.jpeg" alt="Image 3">
+        <img src="images/IMG_6371.JPG.jpeg" alt="Image 4">
+        <img src="images/IMG_6372.JPG.jpeg" alt="Image 5">
+    </div>
+
+</body>
+</html>
